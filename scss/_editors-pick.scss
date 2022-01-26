@@ -4,13 +4,11 @@
   & > div {
     gap: 30px;
   }
-
   & > h1 {
     margin-bottom: 20px;
     text-transform: capitalize;
     letter-spacing: 0.2em;
   }
-
   &__article {
     border-bottom: 2px solid white;
     display: flex;
@@ -19,12 +17,10 @@
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
-      // background-image: url("https://picsum.photos/200/300");
       height: 200px;
       width: 100%;
       margin-bottom: 20px;
     }
-
     .article_text {
       margin-bottom: 20px;
     }

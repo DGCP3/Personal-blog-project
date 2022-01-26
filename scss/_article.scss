@@ -1,0 +1,101 @@
+.article-page {
+  min-height: 80vh;
+  display: grid;
+  gap: 20px;
+  @media (min-width: 900px) {
+    grid-template-columns: 2fr 1fr;
+  }
+}
+.article {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-bottom: 3px solid white;
+  &__image {
+    width: 100%;
+    height: 200px;
+    background-image: url("../assets/geforce.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  &__text {
+    margin-block: 20px;
+    & > h1 {
+      font-size: 3em;
+      text-transform: capitalize;
+    }
+    & > p {
+      font-size: 18px;
+      line-height: 32px;
+      margin-block: 20px;
+    }
+
+    & > blockquote {
+      border-left: 5px solid black;
+      background-color: rgba(215, 242, 255, 0.545);
+      color: black;
+      font-weight: bold;
+      font-size: 20px;
+      padding: 20px;
+      &::before {
+        content: "“";
+        font-size: 1.5em;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+        margin-right: 10px;
+      }
+      &::after {
+        content: "”";
+        font-size: 1.5em;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+        margin-left: 10px;
+      }
+    }
+  }
+}
+.side-nav {
+  .about-us {
+    padding: 20px 20px;
+    margin-block: 30px;
+    background-color: $light-blue;
+    & > h1 {
+      text-transform: capitalize;
+      margin-bottom: 10px;
+    }
+  }
+}
+.bottom-articles {
+  margin-block: 20px;
+  & > h1 {
+    text-transform: capitalize;
+    margin-bottom: 10px;
+  }
+  & > p {
+    font-size: 18px;
+    line-height: 32px;
+    margin-block: 20px;
+  }
+  & > blockquote {
+    border-left: 5px solid black;
+    background-color: rgba(215, 242, 255, 0.545);
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+    &::before {
+      content: "“";
+      font-size: 1.5em;
+      font-weight: bold;
+      color: rgb(0, 0, 0);
+      margin-right: 10px;
+    }
+    &::after {
+      content: "”";
+      font-size: 1.5em;
+      font-weight: bold;
+      color: rgb(0, 0, 0);
+      margin-left: 10px;
+    }
+  }
+}
