@@ -1,0 +1,14 @@
+.footer {
+  min-height: 400px;
+  background-color: #033960;
+  padding: 30px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(200px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.footer > :nth-of-type(3n-2) {
+  grid-column: span 2;
+}
+/*# sourceMappingURL=footer.css.map */
