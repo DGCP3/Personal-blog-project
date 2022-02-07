@@ -104,7 +104,7 @@
     height: max-content;
     min-width: 100%;
     background-position: center;
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
   .top-article__paragraph {
     position: absolute;
@@ -393,7 +393,7 @@
 }
 
 .side-nav .about-us {
-  padding: 20px 20px;
+  padding: 20px;
   margin-block: 30px;
   background-color: #65768f99;
 }
@@ -442,4 +442,3 @@
   color: black;
   margin-left: 10px;
 }
-/*# sourceMappingURL=style.css.map */
